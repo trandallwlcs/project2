@@ -1,0 +1,114 @@
+/* styles.css */
+
+/* General Body Styling - Sets non-white background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light gray-blue, not white */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #001f3f; /* Deep blue, cosmic feel */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav a {
+    color: #87ceeb; /* Sky blue links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white; /* Content area can be white for readability, but the body background is not */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 5px solid #0077b6; /* Accent border color */
+}
+
+h2 {
+    color: #005f73;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e9ecef;
+    color: #333;
+    font-weight: bold;
+}
+
+/* List Styling */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Embedded Video Styling */
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* Mark Tag Styling (w3schools addition style) */
+mark {
+    background-color: #ffc300; /* A bright, attention-grabbing yellow */
+    color: #333;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
